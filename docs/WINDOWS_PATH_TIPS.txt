@@ -1,0 +1,18 @@
+Xiaohuasheng Calendar - Windows
+================================
+
+PATH: unzip to D:\xiaohuasheng\  (NO parentheses like buildkit(5))
+
+BUILD:
+  1) scripts\install-msvc.bat   (if link.exe / MSVC error)
+  2) scripts\build-windows.bat
+
+OUTPUT:
+  calendar-planner\src-tauri\target\release\bundle\nsis\*-setup.exe
+
+UPDATE / DATA:
+  - App data is NOT in install folder.
+  - Data file:  Documents\小花生日程安排\data.json
+  - Reinstall / overwrite install usually KEEPS data.
+  - Still recommended: App sidebar -> Export before update.
+  - Update = run new setup.exe (no need uninstall first).
